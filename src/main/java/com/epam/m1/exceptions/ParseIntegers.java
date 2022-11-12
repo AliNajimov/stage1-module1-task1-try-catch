@@ -23,6 +23,9 @@ public class ParseIntegers {
             String next = words.next();
             int number = Integer.parseInt(next);
             // todo: complete it
+            sum+=number;
+            justWords+=next;
+            justWords+=" ";
         }
         System.out.println("Sum is " + sum);
         System.out.println("Just words:" + justWords);
